@@ -3,6 +3,7 @@
 
 #First, install "officer" and "docxtractr" packages
 
+```{r}
 install.packages("officer")
 install.packages("docxtractr")
-
+```
