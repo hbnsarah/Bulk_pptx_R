@@ -32,7 +32,7 @@ We will now use a "for" loop to iterate over each row of the csv file to create 
 for (i in 1:nrow(participants)) {
   participant <- participants[i, ]
   
-  slide_layout <- "layout_gis" 
+  slide_layout <- "layout_diploma" 
   
   presentation <- read_pptx("Diploma.pptx") 
   
